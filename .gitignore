@@ -39,6 +39,9 @@ testem.log
 /typings
 __screenshots__/
 
+# Local TMDb credentials
+/src/environments/environment.ts
+
 # System files
 .DS_Store
 Thumbs.db
