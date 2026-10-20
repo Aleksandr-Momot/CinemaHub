@@ -2,6 +2,24 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.3.
 
+## Getting started
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Create the environment file by copying the example:
+
+   ```bash
+   cp src/environments/environment.example.ts src/environments/environment.ts
+   ```
+
+   Then put your TMDB read access token into `tmdbReadToken` in `src/environments/environment.ts`.
+
+> The TMDB API key has been sent to the recruiter separately.
+
 ## Development server
 
 To start a local development server, run:
